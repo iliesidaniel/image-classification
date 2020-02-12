@@ -9,10 +9,30 @@ Create an application to facilitate the training and evaluation of neural networ
 
 ## Features
 
-*  Data set creation
-*  Train neural network
-*  Evaluate neural network
-
+<table>
+    <tr>
+        <th> Feature </th>
+        <th> Feature description </th>
+    </tr>
+    <tr>
+        <td> Data set creation </td>
+        <td> Cifar 10 and/or user provided images. </td>
+    </tr>
+    <tr>
+        <td> Train neural network </td>
+        <td> The user can create a new training session or continue an existing one. </td>
+    </tr>
+    <tr>
+        <td> Evaluate neural network </td>
+        <td>
+            <ul>
+                <li> Manual testing - <i>The user selects the desired session and an image to be evaluated.</i> </li>
+                <li> Automated testing - <i>The user selects the desired session and a data set.</i> </li>
+                <li> Model evaluating - <i>K-fold cross-validation</i> </li>
+            </ul>
+        </td>
+    </tr>
+</table>
 
 ## Requirements
 
