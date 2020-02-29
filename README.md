@@ -2,9 +2,23 @@
 
 
 
-## Project objectives
+## About the project
 
-Create an application to facilitate the training and evaluation of neural networks in image classification.
+The project's objective is to create an application to facilitate the training and evaluation of neural networks in Image Classification.
+
+<i>The initial plan was to build this application in two phases. The first phase (my bachelor's project) meant building the required features as solid as possible, while making sure that in the future features can be added without any problems. The second phase was supposed to be a dissertation thesis in Artificial Intelligence and Computer Vision in which I would have used it to experiment with various CNN models. But in the end the plan changed, so only the first phase is completed ... at least for now :).</i>
+
+
+## Key requirements
+
+<ul>
+	<li>While creating a new training or a new evaluation session, the application must allow the user to choose between different NN models.</li>
+	<li>Allow the user to create data sets.</i>
+	<li>Facilitate training and evaluation by allowing the continuation of an existing session.</li>
+	<li>Display in a concise format meaningful informations during and after the training and evaluation sessions.</li>
+	<li>Check the integrity of data set and session files.</li>
+	<li>Automatically download the required files if the user wants to use Cifar 10.</i>
+</ul>
 
 
 ## Features
@@ -33,6 +47,9 @@ Create an application to facilitate the training and evaluation of neural networ
         </td>
     </tr>
 </table>
+
+Due to time constraints the only CNN model currently implemented is the one provided at the time as an example in TF's documentation.
+
 
 ## Requirements
 
